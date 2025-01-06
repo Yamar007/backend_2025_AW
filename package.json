@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "dev": "npx nodemon -x ts-node src/index.ts"
-  },
+    "dev": "npx.cmd nodemon -x ts-node src/index.ts",
+    "start": "npx.cmd ts-node src/index.ts"
+},
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
