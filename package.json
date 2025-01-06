@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "node ./node_modules/nodemon/bin/nodemon.js ./src/index.ts",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js -x node ./node_modules/ts-node/dist/bin.js ./src/index.ts",
     "start": "node ./node_modules/ts-node/dist/bin.js ./src/index.ts"
   },
   "devDependencies": {
